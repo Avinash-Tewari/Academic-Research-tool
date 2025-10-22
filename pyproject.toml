@@ -1,0 +1,25 @@
+[project]
+name = "langchain2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arxiv>=2.2.0",
+    "chromadb>=1.1.1",
+    "faiss-cpu>=1.12.0",
+    "groq>=0.32.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.31",
+    "langchain-core>=0.3.79",
+    "langchain-groq>=0.3.8",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.35",
+    "langgraph>=0.6.10",
+    "ollama>=0.6.0",
+    "pymupdf>=1.26.5",
+    "pypdf>=6.1.1",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.1.1",
+    "typesense>=1.1.1",
+]
